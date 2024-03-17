@@ -1,0 +1,28 @@
+.ServicesComp {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    padding: 16px;
+  }
+  
+  .ServicesComp .ServicesCompIcon {
+    margin-bottom: 16px;
+  }
+
+  .icon{
+    width: 40px;
+  }
+  
+  .ServicesComp .compTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4B108;
+
+  }
+  
+  .ServicesComp .compDescription {
+    font-size: 14px;
+    color: #423D3D;
+
+  }
+  
