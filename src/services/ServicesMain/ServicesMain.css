@@ -1,0 +1,13 @@
+.ServiceCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ServiceCardContainer > * {
+    width: 250px;
+    height: 200px; 
+  }
+  

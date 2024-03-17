@@ -1,0 +1,9 @@
+.services {
+    display: flex;
+    padding-left: 20px;
+}
+
+.whatweoffer > h1 {
+    align-self: flex-start;
+    width: fit-content;
+}
