@@ -1,71 +1,70 @@
 import React from 'react';
 import { ReactComponent as BarsIcon } from '../../assets/icons/bars-solid.svg'
+import { ReactComponent as productIcon } from '../../assets/icons/product-development.svg'
+import { ReactComponent as webIcon } from '../../assets/icons/web-dev.svg'
+import { ReactComponent as mobileIcon } from '../../assets/icons/mobile-dev.svg' 
+import { ReactComponent as itConsulting } from '../../assets/icons/it-consulting.svg'
+import { ReactComponent as uiux } from '../../assets/icons/ui-ux-design.svg'
+import { ReactComponent as network } from '../../assets/icons/network.svg'
+import { ReactComponent as testing } from '../../assets/icons/testing.svg'
+
 import ServicesComp from "./ServicesComp";
 import '../ServicesMain/ServicesMain.css'
 
+
+
 const ServicesMain = () => {
+
+    
+
     return ( 
         <div className="ServiceCardContainer">
             <ServicesComp
                 title='Product Development'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon= {productIcon} 
             />
             <ServicesComp
-                title='Product Development'
+                title='Web Development'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={webIcon} 
             />
             <ServicesComp
-                title='Product Development'
+                title='Mobile Development'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={mobileIcon} 
             />
             <ServicesComp
-                title='Product Development'
+                title='UI UX Development'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={uiux} 
             />
             <ServicesComp
-                title='Product Development'
+                title='Testing '
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={testing} 
             />
             <ServicesComp
-                title='Product Development'
+                title='IT Consulting'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={itConsulting} 
             />
             <ServicesComp
-                title='Product Development'
+                title='BPO'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={itConsulting} 
             />
             <ServicesComp
-                title='Product Development'
+                title='Networking and security'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={network} 
             />
             <ServicesComp
-                title='Product Development'
+                title='Support and Maintenance'
                 description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
+                icon={productIcon} 
             />
-            <ServicesComp
-                title='Product Development'
-                description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
-            />
-            <ServicesComp
-                title='Product Development'
-                description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
-            />
-            <ServicesComp
-                title='Product Development'
-                description='We create tailored solutions that align perfectly with your objectives, providing a competitive edge.'
-                icon={BarsIcon} 
-            />
+            
         </div>
      );
 }

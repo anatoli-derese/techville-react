@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar-mobile.css';
-import techVileLogo from './images/TechVille-logo.png';
+import techVileLogo from '../images/TechVille-logo.png';
 import { useCallback, useRef ,useState } from 'react';
 
 
@@ -16,7 +16,6 @@ const NavbarMobile = () => {
         menuRef.current.classList.toggle('toggle'); // Toggle class using ClassList
     } 
     
-
 
     return (  
 

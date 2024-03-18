@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar-desktop.css';
-import techVileLogo from './images/TechVille-logo.png';
+import techVileLogo from '../images/TechVille-logo.png';
 
 
 const NavbarDesktop = () => {
