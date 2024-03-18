@@ -1,23 +1,23 @@
 .ServicesComp {
     display: flex;
     align-items: center;
+    
     flex-direction: column;
     background-color: white;
 
   }
   
- 
-  
   .ServicesComp .compTitle {
-    font-size: 100%;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
     color: #F4B108;
-
+    margin: 0px;
+    padding: none;
   }
-  
+
+    
   .ServicesComp .compDescription {
     font-size: 14px;
     color: #423D3D;
-
   }
   

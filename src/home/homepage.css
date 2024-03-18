@@ -1,0 +1,63 @@
+.homePage {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction:  row;
+
+}
+.homePage h2{
+    font-size: 60px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .homePage h2 {
+        font-size: 2em;
+    }
+    
+}
+.homePage h2 em {
+    color: #F4B108;
+    text-decoration: none;
+    font-size: 75px;
+;
+}
+
+.homePage p {
+    font-size: 24px;
+    color: #423D3D;
+}
+
+.homePage button {
+    padding:  none;
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    color: white;
+    background-color: #F4B108;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+
+}
+
+.homePage button .icon {
+    width:  5%;
+    color: white;
+    padding: none;
+}
+
+.homePage >  .rightPhotos{
+    display: flex;
+    flex-direction:  row;
+}
+
+.homePage img{
+    width: 80%;
+}
+ .homePage  > .rectangle1{
+    background-color: black;
+    width: 386px;
+    height: 52px;
+ }

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Top from './services/ServicesTop/Top';
 import ServicesComp from './services/ServicesMain/ServicesComp';

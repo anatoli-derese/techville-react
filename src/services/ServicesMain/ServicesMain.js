@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as BarsIcon } from '../../assets/icons/bars-solid.svg'
 import { ReactComponent as productIcon } from '../../assets/icons/product-development.svg'
 import { ReactComponent as webIcon } from '../../assets/icons/web-dev.svg'
 import { ReactComponent as mobileIcon } from '../../assets/icons/mobile-dev.svg' 
@@ -14,9 +13,6 @@ import '../ServicesMain/ServicesMain.css'
 
 
 const ServicesMain = () => {
-
-    
-
     return ( 
         <div className="ServiceCardContainer">
             <ServicesComp
